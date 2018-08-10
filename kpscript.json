@@ -14,6 +14,6 @@
     "Copy-Item \"$dir\\KPScript.exe\" -Destination \"$keePassDir\"",
     "Copy-Item \"$dir\\KPScript.exe.config\" -Destination \"$keePassDir\"",
     "$content = \"%USERPROFILE%\\scoop\\apps\\keepass\\current\\KPScript.exe %*\"",
-    "New-Item -path $dir -Name "kpscript.bat" -Value "$content" -ItemType File"
+    "New-Item -path \"$dir\" -Name \"kpscript.bat\" -Value \"$content\" -ItemType File"
   ]
 }
