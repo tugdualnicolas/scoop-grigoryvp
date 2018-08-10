@@ -6,14 +6,15 @@
   ],
   "homepage": "https://keepass.info/plugins.html#kpscript",
   "version": "2.39.1",
-  "url": "https://keepass.info/extensions/v2/kpscript/KPScript-2.39.1.zip",
+  "url": [
+    "https://keepass.info/extensions/v2/kpscript/KPScript-2.39.1.zip",
+    "https://raw.githubusercontent.com/grigoryvp/scoop-kpscript/master/kpscript.bat"
+  ],
   "hash": "sha1:CB226438AF33347D5F6098AAEB6A4EAF619222DB",
   "bin": "kpscript.bat",
   "post_install": [
     "$keePassDir = \"$env:USERPROFILE\\scoop\\apps\\keepass\\current\"",
     "Copy-Item \"$dir\\KPScript.exe\" -Destination \"$keePassDir\"",
-    "Copy-Item \"$dir\\KPScript.exe.config\" -Destination \"$keePassDir\"",
-    "$content = \"%USERPROFILE%\\scoop\\apps\\keepass\\current\\KPScript.exe %*\"",
-    "New-Item -path \"$dir\" -Name \"kpscript.bat\" -Value \"$content\" -ItemType File"
+    "Copy-Item \"$dir\\KPScript.exe.config\" -Destination \"$keePassDir\""
   ]
 }
