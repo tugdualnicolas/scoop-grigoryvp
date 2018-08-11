@@ -10,7 +10,10 @@
     "https://keepass.info/extensions/v2/kpscript/KPScript-2.39.1.zip",
     "https://raw.githubusercontent.com/grigoryvp/scoop-kpscript/master/kpscript.bat"
   ],
-  "hash": "sha1:CB226438AF33347D5F6098AAEB6A4EAF619222DB",
+  "hash": [
+    "2C220470304F959081A2136F0D793E39F8951EB54E66A7747D59AD505B864A95",
+    "B4E7C1C5D2013248204448567D62FAF4BF0C165B88D055DF3CE2D2D84BFBE07E"
+  ],
   "bin": "kpscript.bat",
   "post_install": [
     "$keePassDir = \"$env:USERPROFILE\\scoop\\apps\\keepass\\current\"",
