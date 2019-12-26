@@ -3,7 +3,7 @@
   "description": "A messaging app with a focus on speed and security.",
   "license": "GPL-3.0-only",
   "extract_dir": "Telegram",
-  "url": "https://updates.tdesktop.com/tsetup/tportable.1.8.15.zip",
+  "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v1.8.15/tportable.1.8.15.zip",
   "homepage": "https://telegram.org/",
   "hash": "5637505b8d453f66270680bd66aa7feb3297f70c1447e6a46dd94f85214198ad",
   "bin": "telegram.cmd",
@@ -19,6 +19,6 @@
       "github": "https://github.com/telegramdesktop/tdesktop"
   },
   "autoupdate": {
-      "url": "https://updates.tdesktop.com/tsetup/tportable.$version.zip"
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.zip"
   }
 }
