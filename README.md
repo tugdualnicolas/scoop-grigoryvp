@@ -3,7 +3,7 @@
 ```bat
 scoop bucket add extras
 scoop install keepass
-scoop bucket add kpscript https://github.com/grigoryvp/scoop-grigoryvp.git
+scoop bucket add grigoryvp https://github.com/grigoryvp/scoop-grigoryvp.git
 scoop install kpscript
 ```
 
