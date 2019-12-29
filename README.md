@@ -16,6 +16,6 @@ See [official kpscript docs](https://keepass.info/help/v2_dev/scr_index.html)
 ```bat
 scoop bucket add extras nerd-fonts https://github.com/grigoryvp/scoop-grigoryvp.git
 scoop install https://raw.githubusercontent.com/grigoryvp/scoop-grigoryvp/master/7zip.json git vcredist2015 vcredist2019 
-scoop install grigoryvp/telegram audacity blender darktable foxit-reader freecad gimp googlechrome keepassxc obs-studio openshot perfgraph picotorrent pwsh sudo teamviewer tor-browser tray-monitor vlc vnote vscode windows-terminal
+scoop install grigoryvp/telegram audacity blender darktable foxit-reader freecad inkscape gimp googlechrome keepassxc obs-studio openshot perfgraph picotorrent pwsh sudo teamviewer tor-browser tray-monitor vlc vnote vscode windows-terminal
 sudo scoop install dejavusansmono-nf firamono-nf
 ```
